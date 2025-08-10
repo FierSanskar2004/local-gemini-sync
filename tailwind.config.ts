@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				local: {
+					DEFAULT: 'hsl(var(--local))',
+					foreground: 'hsl(var(--local-foreground))',
+					glow: 'hsl(var(--local-glow))'
+				},
+				cloud: {
+					DEFAULT: 'hsl(var(--cloud))',
+					foreground: 'hsl(var(--cloud-foreground))',
+					glow: 'hsl(var(--cloud-glow))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
